@@ -1,0 +1,13 @@
+[project]
+name = "python_functions"
+version = "0.1.0"
+description = "Python utility functions including date_time_stamp"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Peter Cullen Burbery", email = "peter.cullen.burbery@gmail.com" }]
+dependencies = ["tzlocal"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
